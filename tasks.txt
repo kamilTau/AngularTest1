@@ -1,2 +1,2 @@
-how <router-outlet> is expanded into <app-product-list>?
-try to add product name to Share and Notify methods
+* how <router-outlet> is expanded into <app-product-list>? app.module.ts defines to use ProductListComponent for base URL
+* try to add product name to Share and Notify methods
