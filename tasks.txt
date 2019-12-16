@@ -1,0 +1,2 @@
+how <router-outlet> is expanded into <app-product-list>?
+try to add product name to Share and Notify methods
