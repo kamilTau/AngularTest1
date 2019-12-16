@@ -12,12 +12,12 @@
     Description: {{ product.description }}
   </p>
 
-  <button (click)="share()">
+  <button (click)="share(product.name)">
     Share
   </button>
 
   <app-product-alerts
     [product]="product"
-    (notify)="onNotify()">
+    (notify)="onNotify(product.name)">
   </app-product-alerts>
 </div>
